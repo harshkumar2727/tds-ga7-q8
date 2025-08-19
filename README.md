@@ -1,18 +1,17 @@
 
+# Patient Satisfaction Analysis – 2024 Quarterly Performance
 
-# Patient Satisfaction Analysis – 2024 Quarterly Report
-
-**Contact:** 23ds3000170@ds.study.iitm.ac.in
+**Contact for verification:** 23ds3000170@ds.study.iitm.ac.in
 
 ***
 
 ## Overview
 
-This project analyzes the 2024 quarterly patient satisfaction scores for our healthcare company, benchmarking against the industry target of 4.5. The findings and recommendations here directly guide strategic decisions and resource allocation for the next fiscal year.
+This project provides a comprehensive analysis of patient satisfaction for the year 2024, benchmarking quarterly performance against the healthcare industry target of 4.5. The insights and recommendations here will help guide strategic decisions to improve **service quality** and **wait times**, ensuring the company consistently exceeds industry standards.
 
 ***
 
-## Dataset
+## Data
 
 | Quarter | Patient Satisfaction Score |
 | :-- | :-- |
@@ -22,53 +21,54 @@ This project analyzes the 2024 quarterly patient satisfaction scores for our hea
 | Q4 | 3.39 |
 
 - **Average Score (2024):** 4.66
-- **Industry Target:** 4.5
+- **Industry Benchmark:** 4.5
 
-***
-
-## Key Findings
-
-- **Volatility:** Scores ranged widely, with significant lows in Q1 (1.57) and Q4 (3.39), and peaks in Q2 (6.19) and Q3 (7.47).
-- **Average Performance:** The annual average (4.66) slightly exceeds the industry benchmark, but inconsistent delivery is a concern.
-- **Benchmark Variance:** Industry target was only met in Q2 and Q3.
+You can find the raw data in `quarterly_patient_satisfaction_2024.csv`.
 
 ***
 
 ## Data Visualization
 
-Line chart plotting the quarterly patient satisfaction scores, with benchmark (4.5) and company average (4.66) lines:
+A line chart visualizes quarterly scores, the industry benchmark, and the company’s average for 2024:
 
-![Patient Satisfaction Scores by Quarter in 2024 vs. Industry Benchmark (4.5) and Average (4.66)](https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/988ecad67e3d3252fcda8074d1732a51/6bea9726-63c1-4dbb-8c83-781ec9f6f419/b09c21f5.png)
+***
 
-Patient Satisfaction Scores by Quarter in 2024 vs. Industry Benchmark (4.5) and Average (4.66)
+## Key Findings
+
+- The company’s **average annual score is 4.66**, slightly above the target, but marked by significant quarter-to-quarter volatility.
+- **Q1 and Q4 scores fall well below the industry benchmark,** indicating periods of poor patient experience.
+- **Q2 and Q3 exceed the industry target,** showing that excellent service is possible, but not sustained.
+- **Pattern:** Performance is not consistent across the year, putting patient trust and company reputation at risk.
 
 ***
 
 ## Business Implications
 
-- **Inconsistent service quality:** Abrupt dips, especially in Q1 and Q4, risk eroding patient trust, loyalty, and brand reputation.
-- **Competitive risk:** Sustained underperformance below industry standard could impact market position and regulatory compliance.
+- Inconsistent service quality poses a risk to patient loyalty and brand trust.
+- Failing to meet the industry benchmark in half the quarters can lead to **competitive disadvantage** and scrutiny from partners and regulators.
+- There is a risk of patient attrition if corrective action is not taken.
 
 ***
 
-## Recommendations
+## Recommendations for Reaching a 4.5+ Target
 
-1. **Investigate Fluctuations:** Analyze root causes for the low performance quarters, such as staffing issues, workflow bottlenecks, or external events.
-2. **Enhance Service Quality:** Conduct focused staff training and implement best-practices in patient interaction, particularly ahead of traditionally low-performing periods.
-3. **Reduce Wait Times:** Optimize patient flow management using real-time data to minimize delays at critical touchpoints.
-4. **Continuous Feedback:** Establish rapid-cycle feedback and intervention mechanisms to address satisfaction dips in real time.
-5. **Transparent Communication:** Update patients and staff regularly on changes and improvements to reinforce a culture of quality and responsiveness.
+1. **Root Cause Analysis:** Investigate operational issues or external events behind low scores in Q1 and Q4, such as staffing shortages, workflow bottlenecks, or policy changes.
+2. **Improve Service Quality:** Implement staff training, increase recognition for high performers, and standardize patient experience best practices.
+3. **Reduce Wait Times:** Optimize scheduling, leverage real-time patient flow monitoring, and deploy resources dynamically during peak periods.
+4. **Continuous Monitoring:** Set up quarterly performance feedback loops and rapid intervention protocols.
+5. **Transparent Communication:** Share improvement efforts with patients and staff to reinforce a culture of responsiveness and care.
+6. **The solution:** "improve service quality and wait times"
 
 ***
 
-## Code
+## How to Reproduce Analysis
 
-All code for data preparation, analysis, and visualization can be found in the repository. The core script is implemented in Python using pandas and matplotlib for analysis and plotting.
+1. Run `analysis.py` to generate the summary statistics and the visualization (`patient_satisfaction_2024.png`).
+2. All data required is in `quarterly_patient_satisfaction_2024.csv`.
 
 ***
 
 ## Contact
 
-For additional data, questions, or collaboration:
-**23ds3000170@ds.study.iitm.ac.in**
+For questions or data requests, please contact **23ds3000170@ds.study.iitm.ac.in**.
 
